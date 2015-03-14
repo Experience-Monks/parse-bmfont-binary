@@ -1,6 +1,6 @@
 {
-  "name": "read-bmfont-binary",
-  "version": "1.0.1",
+  "name": "parse-bmfont-binary",
+  "version": "1.0.3",
   "description": "reads a BMFont binary in a Buffer into a JSON object",
   "main": "index.js",
   "license": "MIT",
@@ -33,10 +33,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/Jam3/read-bmfont-binary.git"
+    "url": "git://github.com/Jam3/parse-bmfont-binary.git"
   },
-  "homepage": "https://github.com/Jam3/read-bmfont-binary",
+  "homepage": "https://github.com/Jam3/parse-bmfont-binary",
   "bugs": {
-    "url": "https://github.com/Jam3/read-bmfont-binary/issues"
+    "url": "https://github.com/Jam3/parse-bmfont-binary/issues"
   }
 }
