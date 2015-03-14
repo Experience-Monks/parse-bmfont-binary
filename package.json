@@ -1,6 +1,6 @@
 {
   "name": "read-bmfont-binary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "reads a BMFont binary in a Buffer into a JSON object",
   "main": "index.js",
   "license": "MIT",
