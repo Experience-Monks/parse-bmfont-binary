@@ -2,6 +2,10 @@
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
+## DEPRECATED
+
+### renamed to [parse-bmfont-binary](https://www.npmjs.com/package/parse-bmfont-binary) 
+
 Encodes a BMFont from a binary Buffer into JSON, as per the [BMFont Spec](http://www.angelcode.com/products/bmfont/doc/file_format.html). Can be used in Node or the browser (e.g. with browserify).
 
 ```js
