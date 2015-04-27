@@ -68,14 +68,14 @@ function readInfo(buf, i) {
   info.stretchH = buf.readUInt16LE(i+4)
   info.aa = buf.readUInt8(i+6)
   info.padding = [
-    buf.readUInt8(i+7),
-    buf.readUInt8(i+8),
-    buf.readUInt8(i+9),
-    buf.readUInt8(i+10)
+    buf.readInt8(i+7),
+    buf.readInt8(i+8),
+    buf.readInt8(i+9),
+    buf.readInt8(i+10)
   ]
   info.spacing = [
-    buf.readUInt8(i+11),
-    buf.readUInt8(i+12)
+    buf.readInt8(i+11),
+    buf.readInt8(i+12)
   ]
   info.outline = buf.readUInt8(i+13)
   info.face = readStringNT(buf, i+14)
